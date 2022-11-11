@@ -10,7 +10,7 @@ def return_neighbours(grid):
                 None
 
             try:
-                if grid[i+1][j] and grid[i+1][j] != '#': #DOWN
+                if grid[i+1][j] and grid[i+1][j] != '#':
                     neighbours[(i,j)].append((i+1,j))
             except:
                 None
