@@ -16,7 +16,7 @@ def return_neighbours(grid):
                 None
 
             try:
-                if grid[i][j-1] and grid[i][j-1] != '#' and j-1 >= 0: #LEFT
+                if grid[i][j-1] and grid[i][j-1] != '#' and j-1 >= 0:
                     neighbours[(i,j)].append((i,j-1))
             except:
                 None
